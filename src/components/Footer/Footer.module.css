@@ -1,9 +1,9 @@
 .footer {
+    bottom: 0;
     border-radius: 30px 30px 0 0;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
     background: rgb(255, 255, 255);
     color: rgb(16, 16, 16);
-    font-family: Montserrat, sans-serif;
     font-size: 25px;
     font-weight: 700;
     line-height: 30px;
@@ -21,6 +21,17 @@
     margin-top: 30px;
     margin-left: 30px;
     margin-bottom: 90px;
+    width: 80px;
+}
+
+.logo_name:hover {
+    transform: scale(1.1);
+}
+
+.logo_name a {
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    cursor: pointer;
 }
 
 .links {
@@ -40,6 +51,11 @@
     gap: 10px;
 }
 
+.first_column > a {
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+}
+
 .second_column {
     display: flex;
     flex-direction: column;
@@ -49,7 +65,7 @@
 
 .change_lang {
     display: flex;
-    color: rgb(255, 165, 66);
+    color: rgb(16, 16, 16);
     font-size: 15px;
     font-weight: 700;
     line-height: 18px;
@@ -75,4 +91,12 @@
 .social img {
     max-width: 30px;
     max-height: 30px;
+}
+
+.link_img:hover {
+    transform: scale(1.1);
+}
+
+.change_lang > .active {
+    color: rgb(255, 165, 66);
 }

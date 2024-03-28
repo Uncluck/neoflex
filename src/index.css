@@ -6,13 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 1440px;
-  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   background: rgb(234, 234, 234);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: Montserrat, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
